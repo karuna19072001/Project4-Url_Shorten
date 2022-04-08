@@ -9,11 +9,11 @@ const { promisify } = require("util");// hear util its a package and promisify i
 
 
 const redisClient = redis.createClient(
-    16426,
-    "redis-16426.c264.ap-south-1-1.ec2.cloud.redislabs.com",  // id of redis
+  14782,
+    "redis-14782.c264.ap-south-1-1.ec2.cloud.redislabs.com",  // id of redis
     { no_ready_check: true }
   );
-  redisClient.auth("lNV3HtOiYo6Gx9Rx8mmMMgsp6rS8TI5h", function (err) {   //auth is use to check authentication
+  redisClient.auth("lpcUIQWib3PBPsT7RyoesCrEdlQM8NIk", function (err) {   //auth is use to check authentication
     if (err) throw err;
   });
   
