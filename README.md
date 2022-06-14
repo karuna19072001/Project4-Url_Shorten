@@ -1,4 +1,4 @@
-# Thoriumc
+# Thorium
 
 ## Scalable URL Shortner Project Requirement
 
